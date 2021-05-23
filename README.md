@@ -19,5 +19,5 @@
 
  | assigment | link |
  |-----------|--------|
- | READ-1 | [read-1](201/class-01.md)| 
- | READ-2 | [read-1](201/class-02.md)|
+ | READ-1 | [read1](201/class-01.md)| 
+ | READ-2 | [read2](201/class-02.md)|
