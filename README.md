@@ -1,4 +1,6 @@
 # review
+
+
 # Code 102 Reading Notes:
 
 
@@ -17,4 +19,5 @@
 
  | assigment | link |
  |-----------|--------|
- | READ-1 | [read-1](201/class-01.md)|
+ | READ-1 | [read-1](201/class-01.md)| 
+ | READ-2 | [read-1](201/class-02.md)|
