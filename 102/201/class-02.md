@@ -29,13 +29,15 @@ When creating a web page, you add tags **(known as markup)** to the contents of 
 ## Paragraphs
 
 + To create a paragraph, surround the words that make up the paragraph with an opening **<p>** tag and closing **</p>** tag.
+
 + By enclosing words in the tags **<b>** and **</b>** we can make characters appear bold.
+
 + By enclosing words in the tags **<i>** and **</i>** we can make characters appear italic.
 + The **<sup>** element is used to contain characters that should be superscript such as the suffixes of dates or mathematical concepts like raising a number to a power such as 22.
 + The **<sub>** element is used to contain characters that should be subscript. It is commonly used with foot notes or chemical formulas such as H20.
 + When the browser comes across two or more spaces next to each other, it only displays one space. Similarly if it comes across a line break, it treats that as a single space too. This is known as **white space collapsing**.
 + As you have already seen, the browser will automatically show each new paragraph or heading on a new line. But if you wanted to add a line break inside the middle of a paragraph you can use the line break tag **<br />**.
-+ To create a break between themes — such as a change of topic in a book or a new scene in a play — you can add a horizontal rule between sections using the **<hr />** tag.
++ To create a break between themes — such as a change of topic in a book or a new scene in a play ,you can add a horizontal rule between sections using the  <hr />  tag.
 
 ## <audio>
 
@@ -48,18 +50,19 @@ This attribute indicates whether the player should display controls. If you do n
 + autoplay
 The presence of this attribute indicates that the audio should start playing automatically. (It is considered better practice to let visitors choose to play audio.)
 + preload
-This attribute indicates what the browser should do if the player is not set to autoplay. It can have the same values we saw on page 214 for the **<video>** element.
+This attribute indicates what the browser should do if the player is not set to autoplay. It can have the same values we saw on page 214 for the **video** element.
+
 + loop
 This attribute specifies that the audio track should play again once it has finished.
 
 ## CSS 
+
 CSS allows you to create rules that specify how the content of an element should appear. For example, you can specify that the background of the page is cream, all paragraphs should appear in gray using the Arial typeface, or that all level one headings should be in a blue, italic, Times typeface.
 
-## BLock & Inline eLement 
-**Block level elements look like they start on a new line.  Examples include the <h1>-<h6>, <p> and <div> elements.**
-**Inline elements flow within the text and do not start on a new line. Examples include <b>, <i>, <img>, <em> and <span>.**
+### BLock & Inline eLement 
 
-_CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a **selector** and a **declaration**._
+
+_Block level elements look like they start on a new line.  Examples include the <h1>-<h6>, <p> and <div> elements.   Inline elements flow within the text and do not start on a new line. Examples include <b>, <i>, <img>, <em> and <span>.CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a **selector** and a **declaration**._
 
 **Selectors** indicate which element the rule applies to. The same rule can apply to more than one element if you separate the element names with commas.
 
